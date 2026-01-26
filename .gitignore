@@ -5,5 +5,4 @@
 tempCodeRunnerFile*
 
 # Ignora a pasta de configurações do VS Code
-.vscode/
-tasks.json
+**/.vscode/
