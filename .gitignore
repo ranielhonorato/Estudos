@@ -1,0 +1,5 @@
+# Ignora todos os arquivos executáveis
+*.exe
+
+# Ignora os arquivos temporários da extensão Code Runner
+tempCodeRunnerFile*
