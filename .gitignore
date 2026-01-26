@@ -3,3 +3,6 @@
 
 # Ignora os arquivos temporários da extensão Code Runner
 tempCodeRunnerFile*
+
+# Ignora os arquivos de execução do VSCODE
+*.vscode
