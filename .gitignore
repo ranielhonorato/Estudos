@@ -1,8 +1,9 @@
-# Ignora todos os arquivos executáveis
+# Ignora todos os arquivos exe
 *.exe
 
-# Ignora os arquivos temporários da extensão Code Runner
+# Ignora os arquivos temporários do Code Runner
 tempCodeRunnerFile*
 
-# Ignora os arquivos de execução do VSCODE
+# Ignora a pasta de configurações do VS Code
 .vscode/
+tasks.json
