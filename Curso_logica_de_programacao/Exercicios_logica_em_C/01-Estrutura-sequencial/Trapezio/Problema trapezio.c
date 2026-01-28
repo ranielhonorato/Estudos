@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main ()
+int main()
 {
 
     double b1, b2, h, area;
@@ -11,8 +11,6 @@ int main ()
 
     area = (b1 + b2) + h / 2.0;
     printf("%lf\n", area);
-
-
 
     return 0;
 }

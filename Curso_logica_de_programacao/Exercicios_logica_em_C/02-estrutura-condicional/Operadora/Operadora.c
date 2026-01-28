@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int minutos;
 
@@ -8,12 +9,11 @@ int main(){
     scanf("%d", &minutos);
 
     double plano_basico = 50.00;
-    if (minutos > 100){
+    if (minutos > 100) {
         plano_basico = plano_basico + (minutos - 100) * 2;
     }
 
     printf("Valor a pagar: %.2lf", plano_basico);
-    
 
     return 0;
 }

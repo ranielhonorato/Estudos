@@ -11,9 +11,9 @@ int main()
         printf("Classificacao: normal");
     } else if (medida_glicose <= 140) {
         printf("Classificacao: elevado");
-    } else{
+    } else {
         printf("Classificacao: diabetes");
     }
 
-        return 0;
+    return 0;
 }

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int i, x, y;
 
@@ -9,11 +10,10 @@ int main(){
     scanf("%d", &x);
     scanf("%d", &y);
 
-    while (x != y){
-        if (x < y){
+    while (x != y) {
+        if (x < y) {
             printf("Crescente\n");
-        } 
-        else {
+        } else {
             printf("Decrescente\n");
         }
 
@@ -22,5 +22,5 @@ int main(){
         scanf("%d", &y);
     }
 
-return 0;
+    return 0;
 }

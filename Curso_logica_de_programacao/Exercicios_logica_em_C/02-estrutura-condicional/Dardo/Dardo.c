@@ -3,15 +3,15 @@
 int main()
 {
     // Variavel que recebe quantidade de lançamentos
-    int Lancamentos; 
+    int Lancamentos;
     // Pergunta e recebe do usuário quantia de lançamentos
     printf("Digite a quantidade de lancamentos realizados: ");
     scanf("%d", &Lancamentos);
 
-    // Define vetor variável para guardar distancias dos lançamentos  
+    // Define vetor variável para guardar distancias dos lançamentos
     double distancias[Lancamentos];
     for (int i = 0; i < Lancamentos; i++) {
-        printf("Digite a %da distancia\n", i+1);
+        printf("Digite a %da distancia\n", i + 1);
         scanf("%lf", &distancias[i]);
     }
 

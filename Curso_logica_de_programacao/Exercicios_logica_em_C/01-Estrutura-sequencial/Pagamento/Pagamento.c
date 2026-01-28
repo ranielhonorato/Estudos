@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     char Nome[30];
     double valor_hora, pagamento;

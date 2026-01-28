@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int resto, horas, minutos, segundos, segundos_usuario;
 

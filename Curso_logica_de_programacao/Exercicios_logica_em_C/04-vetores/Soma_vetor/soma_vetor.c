@@ -9,22 +9,19 @@ int main()
 
     double vet[n];
 
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         printf("Digite um numero: ");
         scanf("%lf", &vet[i]);
     }
 
     double soma = 0;
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         soma = soma + vet[i];
     }
     double media = soma / n;
 
     printf("Valores = ");
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         printf("%.2lf ", vet[i]);
     }
 

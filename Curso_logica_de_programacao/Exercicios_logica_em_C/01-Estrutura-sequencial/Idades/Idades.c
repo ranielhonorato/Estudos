@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 
-void limpar_buffer() {
+void limpar_buffer()
+{
     int c;
-    while ((c = getchar()) != '\n' && c != EOF);
+    while ((c = getchar()) != '\n' && c != EOF)
+        ;
 }
 
-int main() {
+int main()
+{
     int idade1, idade2;
     double media_idades;
     char nome1[50], nome2[50];
@@ -38,7 +41,7 @@ int main() {
     printf("\nNome: %s", nome2);
     printf("Idade: %d", idade2);
 
-    media_idades = (double) (idade1 + idade2) / 2;
+    media_idades = (double)(idade1 + idade2) / 2;
 
     printf("\n\n A idade media de Maria Silva e Joao Melo e: %.2lf", media_idades);
 

@@ -9,7 +9,7 @@ int main()
     scanf(" %c", &escala);
 
     double graus;
-    if (escala == 'f' || escala == 'F' ) {
+    if (escala == 'f' || escala == 'F') {
         printf("Digite a temperatura em farenheint: ");
         scanf("%lf", &graus);
         double celsius = (graus - 32) / 1.8;

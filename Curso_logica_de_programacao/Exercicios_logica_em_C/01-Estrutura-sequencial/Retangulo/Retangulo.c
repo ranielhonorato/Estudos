@@ -1,7 +1,8 @@
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
-int main () {
+int main()
+{
 
     // Declara as variáveis
     double largura, altura, area, perimetro, diagonal;
@@ -17,7 +18,7 @@ int main () {
     area = largura * altura;
     perimetro = 2 * (largura + altura);
     diagonal = sqrt(pow(largura, 2) + pow(altura, 2));
-    
+
     // Mostra o resultado da area, perimetro e diagonal
     printf("Area = %.4lf\n", area);
     printf("Perimetro = %.4lf\n", perimetro);

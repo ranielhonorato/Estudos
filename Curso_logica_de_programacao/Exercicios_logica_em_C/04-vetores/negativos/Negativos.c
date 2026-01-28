@@ -10,17 +10,14 @@ int main()
 
     int x[n];
 
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         printf("Digite um numero: ");
         scanf("%d", &x[i]);
     }
 
     printf("Numeros negativos:\n");
-    for (int i = 0; i < n; i++)
-    {
-        if (x[i] < 0)
-        {
+    for (int i = 0; i < n; i++) {
+        if (x[i] < 0) {
             printf("%d\n", x[i]);
         }
     }
