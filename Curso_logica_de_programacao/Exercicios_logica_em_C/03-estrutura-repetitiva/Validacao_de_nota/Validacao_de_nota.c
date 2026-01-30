@@ -7,11 +7,19 @@ int main()
     printf("Quantas notas vao ser digitadas? ");
     scanf("%d", &quantidade_notas);
 
-    // loop para receber notas digitadas pelo usuario
+    // Recebe as notas digitadas e compara se está no intervalo de 0 a 10.
     double nota[quantidade_notas];
     for (int i = 0; i < quantidade_notas; i++) {
-        printf("Digite a %da nota: ", i + 1);
-        scanf("%lf", &nota[i]);
+        do {
+
+            printf("\nDigite a %da nota: ", i + 1);
+            scanf("%lf", &nota[i]);
+
+            if (nota[i] < 0 || nota[i] > 10) { // se for invalido informa ao usuario
+                printf("Nota invalida! tente novamente.\n\n");
+            }
+
+        } while (nota[i] < 0 || nota[i] > 10);
     }
 
     // loop para somar as notas
