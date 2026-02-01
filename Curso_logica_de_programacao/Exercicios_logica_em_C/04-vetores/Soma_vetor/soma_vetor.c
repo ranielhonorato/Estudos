@@ -3,30 +3,28 @@
 int main()
 {
 
-    int n;
+    int casos;
     printf("Quantos numeros voce vai digitar? ");
-    scanf("%d", &n);
+    scanf("%d", &casos);
 
-    double vet[n];
+    printf("\n");
 
-    for (int i = 0; i < n; i++) {
+    double numeros[casos];
+    for (int i = 0; i < casos; i++) {
         printf("Digite um numero: ");
-        scanf("%lf", &vet[i]);
+        scanf("%lf", &numeros[i]);
     }
 
     double soma = 0;
-    for (int i = 0; i < n; i++) {
-        soma = soma + vet[i];
-    }
-    double media = soma / n;
-
-    printf("Valores = ");
-    for (int i = 0; i < n; i++) {
-        printf("%.2lf ", vet[i]);
+    printf("\nValores = ");
+    for (int i = 0; i < casos; i++) {
+        printf("%.1lf ", numeros[i]);
+        soma += numeros[i];
     }
 
-    printf("\nSoma = %.2lf", soma);
-    printf("\nMedia = %.2lf", media);
+    double media = soma / casos;
+    printf("\nsoma = %.2lf\n", soma);
+    printf("Media = %.2lf", media);
 
     return 0;
 }
