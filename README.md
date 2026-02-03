@@ -1,1 +1,1 @@
-Olá, me chamo Raniel Honorato. Aqui estarei documentando todo o meu estudo para me tornar um desenvolvedor de software focado em Java. Irei documentar todos os exercícios e projetos de curso que eu fizer.
+Olá, me chamo Raniel Honorato. Aqui estarei documentando todo o meu estudo em lógica de programação para me tornar um desenvolvedor de software, meu objetivo é focar na linguagem Java. 
