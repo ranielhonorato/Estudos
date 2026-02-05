@@ -1,8 +1,15 @@
-# Ignora todos os arquivos exe
+### --- Binários e Compilação --- ###
+bin/
+obj/
 *.exe
+*.dll
 
-# Ignora os arquivos temporários do Code Runner
+### --- IDEs (VS Code e Visual Studio) --- ###
+.vscode/
+.vs/
+*.user
+*.suo
+
+### --- Ferramentas e Temporários --- ###
 tempCodeRunnerFile*
-
-# Ignora a pasta de configurações do VS Code
-**/.vscode/
+*.log
