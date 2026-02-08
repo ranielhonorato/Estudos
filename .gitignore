@@ -1,8 +1,14 @@
 ### --- Binários e Compilação --- ###
+*.class
 bin/
 obj/
 *.exe
 *.dll
+.project
+.classpath
+.settings/
+.iml
+.xml
 
 ### --- IDEs (VS Code e Visual Studio) --- ###
 .vscode/
