@@ -1,21 +1,80 @@
-### --- Binários e Compilação --- ###
+# =================================================================
+# GLOBAL - Ferramentas e Editores
+# =================================================================
+.vscode/
+.idea/
+*.swp
+*.log
+.DS_Store
+Thumbs.db
+*.iml
+
+# =================================================================
+# C e C++
+# =================================================================
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+*.vcxproj
+*.sln
+
+# =================================================================
+# JAVA
+# =================================================================
+# Arquivos compilados e pastas de saída
 *.class
 bin/
-obj/
-*.exe
-*.dll
-.project
-.classpath
-.settings/
-.iml
-.xml
+[Bb]in/
+target/
 
-### --- IDEs (VS Code e Visual Studio) --- ###
-.vscode/
-.vs/
+# Arquivos de log e pacotes
+*.jar
+*.war
+*.ear
+.lib/
+
+# Configurações de IDEs (Eclipse/VS Code)
+.metadata/
+.classpath
+.project
+.settings/
+
+# Ferramentas de Build
+.gradle/
+build/
+
+# =================================================================
+# C# e PYTHON
+# =================================================================
+[Oo]bj/
 *.user
 *.suo
+.vs/
+__pycache__/
+*.py[cod]
+.venv/
 
-### --- Ferramentas e Temporários --- ###
+# =================================================================
+# Distribuição / Pacotes
+
+dist/
+
+build/
+
+*.egg-info/
+
+# =================================================================
+
+# EXTENSÕES DE EXTENSÕES (Ex: Code Runner)
+
+# =================================================================
+
 tempCodeRunnerFile*
-*.log
