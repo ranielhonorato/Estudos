@@ -1,18 +1,19 @@
-# Olá, me chamo **Raniel Honorato.** 
+# Olá, me chamo **Raniel Honorato**
 
-Sou estudante de Análise e Desenvolvimento de Sistemas pelo IFPE e estou documentando toda a minha jornada de estudos e prática para me tornar um desenvolvedor de software.
-Meu foco é construir uma base sólida para desenvolver soluções que resolvam problemas reais.
+Sou estudante de Análise e Desenvolvimento de Sistemas pelo **IFPE** e estou documentando minha jornada para me tornar um desenvolvedor de software. Meu foco é construir uma base sólida para desenvolver soluções que resolvam problemas reais.
 
-Abaixo estarei informando os cursos que fazem parte da minha formação.
+Confira abaixo os cursos que compõem minha formação:
 
- #### Algoritmos e Lógica de Programação - O Curso COMPLETO
+#### 🔹 [Algoritmos e Lógica de Programação](./Algoritmos_e_Logica_de_Programacao)
+* **Nome do curso:** Algoritmos e Lógica de Programação - O Curso COMPLETO
 * **Instituição:** Udemy
 * **Instrutor:** Nélio Alves
-* **Objetivo do curso:** Desenvolver a lógica de programação, utilizando e apresentando as linguagens C, C++, C#, python e java.
-* **Status do curso:** ✅ Concluído. 
+* **Objetivo:** Desenvolver a lógica de programação através das linguagens C, C++, C#, Python e Java.
+* **Status:** ✅ Concluído
 
-#### Java COMPLETO Programação Orientada a Objetos + Projetos
+#### 🔹 [Java COMPLETO Programação Orientada a Objetos](./Java_completo_programacao_orientada_a_objetos) 
+* **Nome do curso:** Java COMPLETO Programação Orientada a Objetos + Projetos
 * **Instituição:** Udemy
 * **Instrutor:** Nélio Alves 
-* **Objetivo do curso:** Domínio da linguagem Java e do paradigma de Orientação a Objetos (POO). O curso abrange desde o desenvolvimento de aplicações completas e lógica de backend até persistência de dados (JDBC, JPA, Hibernate) e integração com serviços web (Spring Boot, MySQL, MongoDB)
-* **Status do curso: ⏳ Em andamento..
+* **Objetivo:** Domínio da linguagem Java e do paradigma de Orientação a Objetos (POO). O curso abrange desde o desenvolvimento de aplicações completas até persistência de dados (**JDBC, JPA, Hibernate**) e integração com serviços web (**Spring Boot, MySQL, MongoDB**).
+* **Status:** ⏳ Em andamento..
