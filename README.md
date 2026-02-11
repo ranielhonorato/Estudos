@@ -1,6 +1,6 @@
 # Olá, me chamo **Raniel Honorato**
 
-Sou estudante de Análise e Desenvolvimento de Sistemas pelo **IFPE** e estou documentando minha jornada para me tornar um desenvolvedor de software. Meu foco é construir uma base sólida para desenvolver soluções que resolvam problemas reais.
+Sou estudante de **Análise e Desenvolvimento de Sistemas** pelo **IFPE** e estou documentando minha jornada para me tornar um desenvolvedor de software. Meu foco é construir uma base sólida para desenvolver soluções que resolvam problemas reais.
 
 Confira abaixo os cursos que compõem minha formação:
 
@@ -17,3 +17,8 @@ Confira abaixo os cursos que compõem minha formação:
 * **Instrutor:** Nélio Alves 
 * **Objetivo:** Domínio da linguagem Java e do paradigma de Orientação a Objetos (POO). O curso abrange desde o desenvolvimento de aplicações completas até persistência de dados (**JDBC, JPA, Hibernate**) e integração com serviços web (**Spring Boot, MySQL, MongoDB**).
 * **Status:** ⏳ Em andamento..
+
+📫 **Dados para contato:**
+- GitHub: [RanielHonorato](https://github.com/ranielhonorato)
+- LinkedIn: [Raniel-Honorato](https://www.linkedin.com/in/raniel-honorato/)
+- Email: ranielhonorato@hotmail.com
