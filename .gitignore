@@ -1,16 +1,54 @@
 # =================================================================
-# GLOBAL - Ferramentas e Editores
+# GLOBAL - Ferramentas, IDEs e Sistema
 # =================================================================
 .vscode/
 .idea/
+*.iml
+/shelf/
+/workspace.xml
+.metadata/
 *.swp
 *.log
 .DS_Store
 Thumbs.db
-*.iml
+tempCodeRunnerFile*
 
 # =================================================================
-# C e C++
+# JAVA (IntelliJ, Eclipse e NetBeans)
+# =================================================================
+# Arquivos compilados e pastas de saída
+*.class
+out/
+bin/
+[Bb]in/
+target/
+dist/
+build/
+[Bb]uild/
+.gradle/
+
+# Exceções para garantir que diretórios de build específicos do Maven não sejam ignorados se necessário
+!**/src/main/**/out/
+!**/src/test/**/out/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# Configurações de IDEs e Logs
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+.kotlin
+*.jar
+*.war
+*.ear
+.lib/
+
+# =================================================================
+# C / C++ (Lógica de Programação)
 # =================================================================
 *.exe
 *.out
@@ -20,61 +58,27 @@ Thumbs.db
 *.so
 *.dll
 *.dylib
-[Bb]uild/
 [Dd]ebug/
 [Rr]elease/
 *.vcxproj
 *.sln
 
 # =================================================================
-# JAVA
+# PYTHON e C#
 # =================================================================
-# Arquivos compilados e pastas de saída
-*.class
-bin/
-[Bb]in/
-target/
-
-# Arquivos de log e pacotes
-*.jar
-*.war
-*.ear
-.lib/
-
-# Configurações de IDEs (Eclipse/VS Code)
-.metadata/
-.classpath
-.project
-.settings/
-
-# Ferramentas de Build
-.gradle/
-build/
-
-# =================================================================
-# C# e PYTHON
-# =================================================================
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
 [Oo]bj/
 *.user
 *.suo
 .vs/
-__pycache__/
-*.py[cod]
-.venv/
 
 # =================================================================
-# Distribuição / Pacotes
-
-dist/
-
-build/
-
-*.egg-info/
-
+# SPRING BOOT 
 # =================================================================
-
-# EXTENSÕES DE EXTENSÕES (Ex: Code Runner)
-
-# =================================================================
-
-tempCodeRunnerFile*
+help.md
+.mvn/
+mvnw
+mvnw.cmd
