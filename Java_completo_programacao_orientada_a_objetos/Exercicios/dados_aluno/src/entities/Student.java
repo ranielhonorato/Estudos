@@ -10,15 +10,11 @@ public class Student {
         return firstSemester + secondSemester + thirdSemester;
     }
 
-    public void pass() {
-        System.out.printf("Final grade = %.2f\n", finalNote());
-
-        if (finalNote() >= 60) {
-            System.out.println("Pass");
+    public double missingPoints() {
+        if (finalNote() <= 60) {
+            return 60.0 - finalNote();
         } else {
-            System.out.println("Failed");
-            double passingGrade = 60;
-            System.out.println("Missing " + (passingGrade - finalNote()) + " points");
+            return 0.0;
         }
     }
 }

@@ -18,14 +18,14 @@ public class Main {
         employee.tax = sc.nextDouble();
 
         System.out.println();
-        System.out.println("Employee: " + employee.baseSalary());
+        System.out.println("Employee: " + employee.reportBaseSalary());
 
         System.out.println();
         System.out.println("Whic percentage to increase salary? ");
         employee.increasePercent = sc.nextDouble();
 
         System.out.println();
-        System.out.println("Update data: " + employee.updatedSalaryReport());
+        System.out.println("Update data: " + employee.reportSalaryMorePercent());
 
 
         sc.close();

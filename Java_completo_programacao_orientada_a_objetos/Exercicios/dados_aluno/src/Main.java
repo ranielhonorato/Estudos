@@ -18,8 +18,13 @@ public class Main {
         student.thirdSemester = sc.nextDouble();
 
         System.out.println(student.name);
-        student.pass();
-        
+        System.out.printf("Final grade = %.2f%n", student.finalNote());
+
+        if (student.finalNote() < 60.0){
+            System.out.println("Failed");
+            System.out.printf("Missing %.2f points%n", student.missingPoints());
+        }
+
         sc.close();
     }
 }

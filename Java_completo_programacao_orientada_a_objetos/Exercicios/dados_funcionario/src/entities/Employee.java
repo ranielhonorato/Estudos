@@ -1,6 +1,7 @@
 package entities;
 
 public class Employee {
+
     public String name;
     public double grossSalary;
     public double tax;
@@ -14,11 +15,11 @@ public class Employee {
         return (grossSalary * (increasePercent / 100)) + netSalary();
     }
 
-    public String baseSalary() {
+    public String reportBaseSalary() {
         return name + ", " + " $ " + String.format("%.2f", netSalary());
     }
 
-    public String updatedSalaryReport() {
+    public String reportSalaryMorePercent() {
         return name + ", " + " $ " + String.format("%.2f", increaseSalary());
     }
 }
