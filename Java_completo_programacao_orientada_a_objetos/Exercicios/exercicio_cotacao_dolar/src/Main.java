@@ -17,5 +17,6 @@ public class Main {
 
         System.out.println("Amount to be paid in reais = R$ " + paidReais);
 
+        sc.close();
     }
 }
