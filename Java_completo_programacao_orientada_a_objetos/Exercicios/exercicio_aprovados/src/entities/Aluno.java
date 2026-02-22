@@ -36,4 +36,8 @@ public class Aluno {
     public void setSegundoSemestre(double segundoSemestre){
         this.segundoSemestre = segundoSemestre;
     }
+
+    public double getMedia(){
+        return primeiroSemestre + segundoSemestre / 2.0;
+    }
 }

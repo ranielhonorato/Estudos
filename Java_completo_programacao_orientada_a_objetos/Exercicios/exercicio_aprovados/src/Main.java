@@ -22,20 +22,13 @@ public class Main {
             aluno[i] = new Aluno(nome, primeiraNota, segundaNota);
         }
 
-        double[] somaNotas = new double[totalAlunos];
-
-        for (int i = 0; i < aluno.length; i++) {
-            somaNotas[i] = aluno[i].getPrimeiroSemestre() + aluno[i].getSegundoSemestre();
-        }
-
-        double[] media = new double[totalAlunos];
         System.out.println("Alunos aprovados: ");
         for (int i = 0; i < aluno.length; i++) {
-            media[i] = somaNotas[i] / 2.0;
-            if (media[i] >= 6){
+            if (aluno[i].getMedia() >= 6) {
                 System.out.println(aluno[i].getNome());
             }
         }
 
+        sc.close();
     }
 }
