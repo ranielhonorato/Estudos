@@ -10,7 +10,7 @@ public class Main {
 
         System.out.print("What is the dollar price? ");
         double dollarPrice = sc.nextDouble();
-        System.out.print("How many dollars will be boght? ");
+        System.out.print("How many dollars will be bought? ");
         double amountDollar = sc.nextDouble();
 
         double paidReais = CurrencyConverter.reaisToPay(amountDollar, dollarPrice);

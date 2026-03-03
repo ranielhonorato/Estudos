@@ -11,7 +11,7 @@ public class Pessoas {
         this.altura = altura;
     }
 
-    public String getName() {
+    public String getNome() {
         return nome;
     }
 

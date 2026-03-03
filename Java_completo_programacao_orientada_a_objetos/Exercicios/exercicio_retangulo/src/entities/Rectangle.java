@@ -3,17 +3,17 @@ package entities;
 public class Rectangle {
 
     public double width;
-    public double heigth;
+    public double height;
 
     public double perimeter() {
-        return 2 * (width + heigth);
+        return 2 * (width + height);
     }
 
     public double area() {
-        return width * heigth;
+        return width * height;
     }
 
     public double diagonal() {
-        return Math.sqrt(Math.pow(width, 2) + Math.pow(heigth, 2));
+        return Math.sqrt(Math.pow(width, 2) + Math.pow(height, 2));
     }
 }

@@ -12,7 +12,7 @@ public class Main {
 
         List<Funcionario> list = new ArrayList<>();
 
-        System.out.print("Quandos funcionarios serao cadastrados? ");
+        System.out.print("Quantos funcionarios serao cadastrados? ");
         int totalParaCadastro = sc.nextInt();
 
 

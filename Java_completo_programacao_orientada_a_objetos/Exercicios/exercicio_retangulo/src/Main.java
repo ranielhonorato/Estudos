@@ -11,7 +11,7 @@ public class Main {
         Rectangle rectangle = new Rectangle();
         System.out.println("Enter rectangle width and height: ");
         rectangle.width = sc.nextDouble();
-        rectangle.heigth = sc.nextDouble();
+        rectangle.height = sc.nextDouble();
 
         System.out.println("Area = " + rectangle.area());
         System.out.println("Perimeter = " + rectangle.perimeter());
