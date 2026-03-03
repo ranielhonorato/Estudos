@@ -8,36 +8,37 @@ public class Aluno {
     public Aluno() {
     }
 
-    public Aluno(String nome, double primeiroSemestre, double segundoSemestre){
+    public Aluno(String nome, double primeiroSemestre, double segundoSemestre) {
         this.nome = nome;
         this.primeiroSemestre = primeiroSemestre;
         this.segundoSemestre = segundoSemestre;
     }
 
-    public String getNome(){
+    public String getNome() {
         return nome;
     }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public double getPrimeiroSemestre() {
         return primeiroSemestre;
     }
 
-    public double getSegundoSemestre(){
-        return segundoSemestre;
-    }
-
-    public void setNome(String nome){
-        this.nome = nome;
-    }
-
-    public void setPrimeiroSemestre(double primeiroSemestre){
+    public void setPrimeiroSemestre(double primeiroSemestre) {
         this.primeiroSemestre = primeiroSemestre;
     }
 
-    public void setSegundoSemestre(double segundoSemestre){
+    public double getSegundoSemestre() {
+        return segundoSemestre;
+    }
+
+    public void setSegundoSemestre(double segundoSemestre) {
         this.segundoSemestre = segundoSemestre;
     }
 
-    public double getMedia(){
-        return primeiroSemestre + segundoSemestre / 2.0;
+    public double getMedia() {
+        return (primeiroSemestre + segundoSemestre) / 2.0;
     }
 }

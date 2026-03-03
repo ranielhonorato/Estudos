@@ -1,7 +1,5 @@
 package entities;
 
-import javax.xml.namespace.QName;
-
 public class Product {
     private String name;
     private double price;
