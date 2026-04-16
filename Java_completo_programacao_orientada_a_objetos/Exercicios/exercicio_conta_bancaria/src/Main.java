@@ -1,3 +1,6 @@
+///  Exercício simples de conta bancária onde pode cadastrar cliente e adicionar valores
+/// Treino para utilização classe e separação de responsabilidades
+
 import entities.Account;
 
 import java.util.Scanner;

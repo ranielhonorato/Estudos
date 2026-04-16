@@ -1,3 +1,5 @@
+///  Exercicio que cálcula a média da nota do aluno para fixação e aprendizado da utilização das classes.
+
 import entities.Aluno;
 
 import java.util.Scanner;

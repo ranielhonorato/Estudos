@@ -1,3 +1,6 @@
+/// Exercício simulando post de rede social
+/// Foi apresentada e treinada a utilização de LocalDateTime, formatação de datas e classes.
+
 import entities.Comment;
 import entities.Post;
 

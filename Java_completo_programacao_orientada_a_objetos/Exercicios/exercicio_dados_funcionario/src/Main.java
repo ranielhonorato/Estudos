@@ -1,3 +1,6 @@
+///  Exercício para registrar dados de um funcionário e atualizar o salário com um aumento
+/// Todo o calculo é feito na classe, trazendo apenas os resultados para a Main
+
 import java.util.Scanner;
 import java.util.Locale;
 

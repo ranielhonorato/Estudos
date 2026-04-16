@@ -1,3 +1,6 @@
+/// Exercicio de cadastro de trabalhador e contratos que o mesmo possui
+/// Foi treinado a utilização de classes, data e lista. Composição de classes e enums.
+
 import entities.ContratoHora;
 import entities.Departamento;
 import entities.NivelTrabalhador;

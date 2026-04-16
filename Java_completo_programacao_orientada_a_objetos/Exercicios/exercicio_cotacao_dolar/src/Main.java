@@ -1,3 +1,6 @@
+///  Exercício de conversão da moeda em REAL para DÓLAR
+/// Nesse exercício foi treinado a criação de classes e separações de responsabilidade.
+
 import entities.CurrencyConverter;
 
 import java.util.Scanner;

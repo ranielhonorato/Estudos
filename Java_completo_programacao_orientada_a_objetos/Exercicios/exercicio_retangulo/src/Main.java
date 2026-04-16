@@ -1,3 +1,6 @@
+/// Exercício simples do cálculo de um retangulo
+/// Treino para utilização de classes e separação de responsabilidades
+
 import entities.Rectangle;
 
 import java.util.Scanner;

@@ -1,6 +1,7 @@
 package entities;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class Cliente {
     private String nome;
@@ -14,6 +15,9 @@ public class Cliente {
         this.nome = nome;
         this.email = email;
         this.dataAniversario = dataAniversario;
+    }
+
+    public Cliente(String nome, String email, LocalDateTime data) {
     }
 
     public String getNome() {
@@ -38,5 +42,16 @@ public class Cliente {
 
     public void setDataAniversario(LocalDate dataAniversario) {
         this.dataAniversario = dataAniversario;
+    }
+
+    @Override
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("\nCliente: " + nome);
+        sb.append(" (" + dataAniversario + ")");
+        sb.append(" - " + email);
+
+        return sb.toString();
     }
 }

@@ -1,3 +1,4 @@
+///  Exercícios simples de apresentação de cálculos básicos em java
 
 import entities.Calculator;
 

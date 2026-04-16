@@ -1,3 +1,6 @@
+/// Exercicio de cadastro de funcionarios
+/// É apresentado o conceito de ID e buscas por list.stream
+
 import entities.Funcionario;
 
 import java.util.ArrayList;

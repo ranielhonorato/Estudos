@@ -1,3 +1,6 @@
+///  Exercicio de matriz
+///  Foi treinado a utilização de matriz e compreendimento de como navegar pelo seu tamanho para obtenção de dados.
+
 import java.util.Scanner;
 import java.util.Locale;
 

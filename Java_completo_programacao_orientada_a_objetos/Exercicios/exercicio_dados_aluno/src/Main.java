@@ -1,3 +1,6 @@
+///  Exercício semelhante ao "exercicio_aprovados" para calculo das notas dos alunos
+/// Porém com separação de responsabilidades.
+
 import entities.Student;
 import java.util.Scanner;
 import java.util.Locale;

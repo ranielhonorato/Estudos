@@ -1,3 +1,6 @@
+/// Exercicio de estoque, onde pode cadastrar produtos e adicionar ou remover as suas quantidades
+/// É treinado o conceito de classes e listas para armazenamento de informações
+
 import entities.Product;
 
 import java.util.Scanner;

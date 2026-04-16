@@ -1,3 +1,5 @@
+/// Exercicio basico para melhor entendimento de vetores em java
+
 import entities.Pessoas;
 
 import java.util.Scanner;

@@ -1,3 +1,6 @@
+/// Exercicio de hospegagem onde é possível reservar a quantidade de quartos e cadastrar as pessoas por quartos escolhidos
+/// Foi treinado, utilização de classes, vetores e utilização das classes juntamente de vetores.
+
 import entities.Quarto;
 
 import java.util.Scanner;

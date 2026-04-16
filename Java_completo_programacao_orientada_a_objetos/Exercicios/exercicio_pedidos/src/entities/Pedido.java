@@ -2,7 +2,6 @@ package entities;
 
 import enums.StatusPedido;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -19,12 +18,20 @@ public class Pedido {
     public Pedido() {
     }
 
+    public Pedido(LocalDateTime momento, StatusPedido status, Cliente cliente) {
+        this.momento = momento;
+        this.status = status;
+        this.itens = itens;
+        this.cliente = cliente;
+    }
+
     public Pedido(LocalDateTime momento, StatusPedido status, List<ItemPedido> itens, Cliente cliente) {
         this.momento = momento;
         this.status = status;
         this.itens = itens;
         this.cliente = cliente;
     }
+
 
     public LocalDateTime getMomento() {
         return momento;
@@ -76,22 +83,14 @@ public class Pedido {
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
 
         StringBuilder sb = new StringBuilder();
-        sb.append("Data: " + momento.format(fmt));
-        sb.append("\nStatus: " + status);
-        sb.append("\nCliente: " + cliente.getNome());
-        sb.append(" (" + cliente.getDataAniversario() + ")");
-        sb.append(" - " + cliente.getEmail());
-        sb.append("\nItens do pedido: \n" );
+        sb.append("Data do pedido: " + momento.format(fmt));
+        sb.append("\nStatus do pedido: " + status);
+        sb.append(getCliente());
+        sb.append("\n Itens do pedido: \n");
         for (ItemPedido item : itens){
-            sb.append(item.getProduto().getNome() + ", ");
-            sb.append("$" + String.format("%.2f", item.getProduto().getPreco()) + ", ");
-            sb.append("Quantidade: " + item.getQuantidade() + ", ");
-            sb.append("Total: $" + String.format("%.2f", item.valorTotal()));
-            sb.append("\n");
+            sb.append(item + "\n");
         }
-
-        sb.append("Total do pedido: " + total());
-
+        sb.append("Total do pedido: $ " + String.format("%.2f", total()));
         return sb.toString();
     }
 }

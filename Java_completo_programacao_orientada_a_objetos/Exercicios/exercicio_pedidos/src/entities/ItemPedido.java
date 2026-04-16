@@ -3,6 +3,7 @@ package entities;
 public class ItemPedido {
     private Integer quantidade;
     private Double preco;
+
     private Produto produto;
 
     public ItemPedido() {
@@ -42,4 +43,16 @@ public class ItemPedido {
         return preco * quantidade;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+
+        sb.append(getProduto().getNome() + ", $ ");
+        sb.append(String.format("%.2f", preco) + ", ");
+        sb.append("Quantidade: " + quantidade + ", ");
+        sb.append("Total: $ " + String.format("%.2f", valorTotal()));
+
+        return sb.toString();
+    }
 }
+

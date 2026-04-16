@@ -24,4 +24,13 @@ public class Produto {
         return preco;
     }
 
+    @Override
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("Produto: " + nome);
+        sb.append("Preco: " + preco);
+
+        return sb.toString();
+    }
 }

@@ -1,3 +1,6 @@
+///  Exercício simples de cadastro de pessoas e verificação do mais velho
+///  Foi treinado a utilização de vetores e classe em java
+
 import entities.Pessoa;
 
 import java.util.Scanner;
