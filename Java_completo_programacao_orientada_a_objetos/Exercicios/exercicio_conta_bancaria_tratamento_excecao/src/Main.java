@@ -26,7 +26,7 @@ public class Main {
 
             System.out.print("Digite o valor para saque: ");
             double valorSaque = Double.parseDouble(sc.nextLine());
-            contaBancaria.saque(valorSaque);
+            contaBancaria.validarSaque(valorSaque);
 
         } catch (DomainException e) {
             System.out.print("Erro: " + e.getMessage());
