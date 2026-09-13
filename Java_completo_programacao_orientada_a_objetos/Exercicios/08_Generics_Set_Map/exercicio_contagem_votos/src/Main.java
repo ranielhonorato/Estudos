@@ -1,13 +1,16 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        HashMap<String, Integer> registroVotos = new LinkedHashMap<>();
 
-        HashMap<String, Integer> registroVotos = new HashMap();
-
-        String caminhoArquivo = "/workspaces/Estudos/Java_completo_programacao_orientada_a_objetos/Exercicios/08_Generics_Set_Map/exercicio_contagem_votos/registros.csv";
+        System.out.print("Digite o caminho do arquivo CSV: ");
+        String caminhoArquivo = sc.nextLine();
         try (BufferedReader br = new BufferedReader(new FileReader(caminhoArquivo))) {
 
             String registroLido = br.readLine();
@@ -24,6 +27,10 @@ public class Main {
                 }
 
                 registroLido = br.readLine();
+            }
+
+            for (String chave : registroVotos.keySet()) {
+                System.out.println("Candidato: " + chave + " votos: " + registroVotos.get(chave));
             }
 
         } catch (Exception e) {
